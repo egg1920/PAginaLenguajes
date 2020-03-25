@@ -1,0 +1,399 @@
+html{
+    box-sizing: border-box;
+  
+}
+body {
+    margin: 0 ; 
+    
+}
+
+
+img{
+    height: 130px;
+    margin-left:100px;
+    background-color: transparent;
+}
+/*header*/
+.foto{
+ /* background-color: rgba(187,209,234,0.4);*/
+  margin-top:40px;
+  background-image: url(../ImágenesEGG1920/principal.jpg);  
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+  margin:0 0;
+}
+.header-inicio
+{
+ margin-top:40px;
+background-position: center center;
+background-size: cover;
+height: 100vh;
+min-height: 700px;
+margin:0 0;
+}
+
+
+.enunciado{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#383e46;
+    font-size: 20px;
+    line-height: 0.3;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+      
+}
+.barra h2{ 
+    font-family: 'Arizonia', cursive;
+    font-size: 50px;
+    position:center;
+    margin-left:180px;
+
+}
+.barra h3{
+font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px;  
+    margin-top: 0px;
+    margin-left: 250px;
+}
+/*.foto{
+    background-image: url(../ImágenesEGG1920/principal.jpg);  
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    margin:0 0;
+} /*
+/**navegacion*/
+
+.navegacion a {
+    color: #383e46;
+    font-family: 'Arizonia', cursive;
+    font-size: 35px;
+    text-decoration: none;
+    
+    display: inline-block ;
+    padding-top: 40px;
+    margin-right: 20px;
+}
+
+.ultimo{
+  padding-right: 50px;
+}
+/*body*/
+/*section{
+    background-image: url(../ImágenesEGG1920/principal.jpg);  
+    background-position: center center;
+    background-size: cover;
+    min-height: 700px;
+    margin:0 0;}*/
+
+.contenido-cuerpo{
+display: flex;
+justify-content: space-between;
+ padding-left: 50px;
+flex-wrap: wrap;
+
+
+}
+.cuerpo{
+  
+    font-size: 30px;
+    flex-shrink: 0;    
+     color:  #383e46;
+    font-family: 'Lateef', cursive;
+
+    
+}
+.contenedor-cuerpo {
+    position: relative;
+}
+.contenido-cuerpo p{
+   
+    margin-left:200px ;
+    
+    font-size: 35px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+.contenido-cuerpo img{
+
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-right:150px ;
+}
+
+section img{
+
+    width: 500px;
+    height: 300px;
+    margin:0px ;
+    margin-bottom:100px ;
+}
+section img:first-child{
+
+    margin-left: 150px;
+}
+
+
+/*footer*/
+   footer{
+       height: 100px;
+       background-color: #7eabdf80;   
+       background: linear-gradient(to top,#7eabdf80 ,#ffffff 100%);
+    }
+       
+   
+.footer-final{
+    /*background-color: #bbd1ea;   */ 
+    color: #383e46;
+    font-family: 'Arizonia', cursive;
+    font-size: 30px;
+    line-height:0.3;
+    margin-top: 110px;
+    position: absolute;
+    width: 100%;
+
+   
+}
+.footer-final a{
+    text-decoration: none;
+    color: #383e46;
+    font-family: 'Arizonia', cursive;
+       
+}
+    
+.final{     
+ float: left; 
+ width: 40%;
+}
+.footer-final img {
+ width: 200px;
+ height:100px ;
+ padding-left: 100px;
+}
+.final-derecho
+{    
+  text-align: right; 
+  display: inline-block;    
+   
+}
+
+
+
+
+
+/*pagina conocenos*/
+.inicio-conocenos{
+    background-color: #bbd1ea;   
+    background: linear-gradient(to bottom,#7eabdf80 ,#ffffff 100%);
+   
+    
+   
+}
+.inicio-conocenos h2 , h3{
+    color: #565e69;
+
+}
+
+.contenido-conocenos h1{
+    margin: 50px 0 20px;/*arreglar esto*/
+    text-align: center;    
+    color: #383e46;  
+    margin-right: 40%;  
+    font-family: 'Annie Use Your Telescope', cursive;   
+    font-size: 45px;
+    
+    
+}
+.contenido-conocenos img{
+
+float: right;
+    width: 25%;
+    margin-top: -50px;
+    margin-right: 30px;
+    height: 300px; 
+    filter :blur(0.2px);
+    border-radius: 8px;        
+
+}
+.seccion-contenido{
+    margin-bottom:90px;
+    height: 59% ;
+}
+
+
+.contenido-conocenos p{
+font-family: 'Annie Use Your Telescope', cursive;   
+text-align: center;
+margin-left: 150px;
+width: 50%;
+color: #383e46;
+font-size: 28px;
+
+}
+.ancla-conocenos
+{
+    color: #383e46;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+/*pagina contraseña*/
+.bodypassword{
+    background-color: #bbd1ea;}
+    form{
+        text-align: center;
+        margin-top: 20%;
+    }
+#password{
+    margin-right: 25px;
+}
+.bodypassword-body 
+{    
+  height: 100%;
+    background: linear-gradient(to top, #abc2db9c, white 70%);
+    margin-top: 20%;
+}
+
+    
+/*página contacto*/
+
+.contacto h2{
+
+    text-align: center;
+    color: #383e46;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;  
+    
+}
+div .formulario 
+{
+    width: 600px;    
+    margin: 94px auto;    
+}
+form{
+    margin-top: 0;
+}
+.formulario label{
+    
+    padding: 12px 0;
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;   
+}
+.formulario button
+{
+margin: 20px 0 10px;
+}
+
+.formulario input[type=text],.formulario input[type=tel],.formulario input[type=email],.formulario textarea{
+    display:block;
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    padding: 5px;
+    border: 0px none;
+    color: #383e46;
+    border-bottom: 1px solid #383e46;
+    margin-bottom: 15px;
+    width: 100%;
+}
+ .wasap a{
+
+color: #383e46;
+text-decoration: none;
+}
+.formulario textarea{
+    height: 50px;
+
+}
+.formulario button {
+    border: 2px solid #383e46;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: #383e46;
+    background-color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    font-weight: bold;
+    margin: 70px 10px 10px 0;
+    display: inline-block;
+
+}
+::-webkit-input-placeholder { color: #2e3135; font-weight: bold;} 
+
+:-moz-placeholder { /* Firefox 18- */ color: #2e3135; font-weight: bold;} 
+
+::-moz-placeholder { /* Firefox 19+ */  color: #2e3135; font-weight: bold;} 
+
+.formulario:-ms-input-placeholder { color: #2e3135; font-weight: bold;}
+
+ /*página servicios*/
+.contenido-servicios 
+ {
+ font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 35px;  
+  margin-left: 30%; 
+ }
+ .contenido-servicios h2{
+     border-bottom:3px solid black ;    
+
+ }
+ .servicios-segunda p, .servicios-segunda h2
+ {  
+    text-align: right;   
+    max-width: 50%; 
+    padding-bottom: 5px;     
+    
+ }
+ 
+ 
+ .servicios-primera p, .servicios-primera h2
+ {
+  text-align: left;  
+  max-width: 50%; 
+  padding-bottom: 5px;  
+  
+ }
+ .ancla-servicios, .boton-servicios
+ {
+     text-decoration: none;
+     font-family: 'Annie Use Your Telescope', cursive;   
+     font-weight: bold; 
+     font-size: 30px;
+     color: #383e46;   
+     padding:10px 20px;
+     border: 0;
+     color: #383e46;
+     background-color: #fff;
+ }
+ .boton-servicios{
+     margin-top: 150px;
+ }
+
+ /*paginas fotos*/
+ .contenido-fotos 
+ {
+   margin-left: 150px;
+   font-family: 'Annie Use Your Telescope', cursive;
+   font-size: 25px;
+
+ }
+ .contenido-fotos h2
+ {
+   margin-bottom: 100px;
+ }
+
+ .contenido-fotos img
+ {
+     border: 3px solid black;
+     padding: 7px;
+     margin-right: 15px;
+     width: 400px;
+ }
+
